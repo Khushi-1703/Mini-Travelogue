@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Design</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(210, 210, 210);
+            padding: 35px;
+            display: flex;
+        }
+
+        .card {
+            background-color: #fff;
+            border: 2px solid rgb(132, 132, 132);
+            border-radius: 13px;
+            width: 350px;
+            padding: 0px 0px 34px 0px;
+            margin: 7px;
+            
+        }
+
+        .image {
+            padding: 5px;
+        }
+
+        .image img {
+            width: 335px;
+            border: 2px solid rgb(132, 132, 132);
+            border-radius: 13px;
+            
+        }
+
+        .capsules {
+            padding: 7px 0px 8px 15px;
+        }
+
+        .capsules button {
+            padding: 0.5px 8px;
+            border: 0.5px solid rgb(136, 136, 136);
+            border-radius: 25px;
+            color: rgb(135, 135, 135);
+            margin: 3px;
+            font-size: 15px;
+            font-family: "Poppins", sans-serif;
+            cursor: pointer;
+        }
+
+        .capsules button:hover {
+            background-color: rgb(236, 236, 236);
+            color: rgb(85, 85, 85);
+        }
+
+        .content {
+            padding: 7px 10px;
+            /* margin: 3px; */
+            font-family: "Poppins", sans-serif;
+        }
+
+        .content h2 {
+            font-size: 40px;
+        }
+
+        .content p {
+            font-size: 16px;
+            color: rgb(135, 135, 135);
+            text-align: justify;
+        }
+
+        .button {
+            text-align: center;
+        }
+
+        .button button {
+            padding: 18px 29px;
+            border-radius: 55px;
+            background-color: rgb(202, 230, 255);
+            color: rgb(14, 150, 234);
+            font-size: 16px;
+            margin-top: 9px;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .button button:hover {
+            background-color: rgb(222, 239, 254);
+            color: rgb(5, 146, 233);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="image">
+            <a target="_blank" href="https://www.holidaymonk.com/wp-content/uploads/2024/10/The-Ultimate-Travel-Guide-to-Thailand.webp"><img src="https://www.holidaymonk.com/wp-content/uploads/2024/10/The-Ultimate-Travel-Guide-to-Thailand.webp" alt="Thailand"></a>
+        </div>
+
+        <div class="capsules">
+            <a target="_blank" href="https://www.visitsoutheastasia.travel/guides/natural-wonders-of-thailand/"><button>Nature</button></a>
+            <a target="_blank" href="https://www.tripadvisor.in/Attractions-g293915-Activities-c61-t52-Thailand.html"><button>Beach</button></a>
+        </div>
+
+        <div class="content">
+            <h2>Thailand</h2>
+            <p>Thailand is a Southeast Asian country. It's known for tropical beaches, opulent royal palaces, ancient ruins and ornate temples displaying figures of Buddha. In Bangkok, the capital, an ultramodern cityscape rises next to quiet canalside communities and the iconic temples of Wat Arun, Wat Pho and the Emerald Buddha Temple.</p>
+        </div>
+
+        <div class="button">
+            <a target="_blank" href="https://en.wikipedia.org/wiki/Thailand"><button>Read More</button></a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image">
+            <a target="_blank" href="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/19/a5/0c/get-relaxing-with-your.jpg?w=700&h=700&s=1"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/19/a5/0c/get-relaxing-with-your.jpg?w=700&h=700&s=1" alt="Vietnam"></a>
+        </div>
+
+        <div class="capsules">
+            <a target="_blank" href="https://vietnam.travel/things-to-do/nature"><button>Nature</button></a>
+            <a target="_blank" href="https://www.tripadvisor.in/Attractions-g293921-Activities-c61-t52-Vietnam.html"><button>Beach</button></a>
+        </div>
+
+        <div class="content">
+            <h2>Vietnam</h2>
+            <p>Vietnam is a Southeast Asian country known for its beaches, rivers, Buddhist pagodas and bustling cities. Hanoi, the capital, pays homage to the nation’s iconic Communist-era leader, Ho Chi Minh, via a huge marble mausoleum. Ho Chi Minh City has French colonial landmarks, plus Vietnamese War history museums and the Củ Chi tunnels, used by Viet Cong soldiers.</p>
+        </div>
+
+        <div class="button">
+            <a target="_blank" href="https://en.wikipedia.org/wiki/Vietnam"><button>Read More</button></a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image">
+            <a target="_blank" href="https://i.ytimg.com/vi/K89yah5Stuw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDo10FKi5e9tb9PRBuGQjhkPG8fKA"><img src="https://i.ytimg.com/vi/K89yah5Stuw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDo10FKi5e9tb9PRBuGQjhkPG8fKA" alt="Switzerland"></a>
+        </div>
+
+        <div class="capsules">
+            <a target="_blank" href="https://www.myswitzerland.com/en-in/destinations/nature/"><button>Nature</button></a>
+            <a target="_blank" href="https://www.myswitzerland.com/en-in/destinations/holiday-destinations/cities/cities-search/"><button>Towns</button></a>
+        </div>
+
+        <div class="content">
+            <h2>Switzerland</h2>
+            <p>Switzerland is a mountainous Central European country, home to numerous lakes, villages and the high peaks of the Alps. Its cities contain medieval quarters, with landmarks like capital Bern’s Zytglogge clock tower and Lucerne’s wooden chapel bridge. The country is also known for its ski resorts and hiking trails. Banking and finance are key industries, and Swiss watches and chocolate are world renowned.</p>
+        </div>
+
+        <div class="button">
+            <a target="_blank" href="https://en.wikipedia.org/wiki/Switzerland"><button>Read More</button></a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image">
+            <a target="_blank" href="https://media.cnn.com/api/v1/images/stellar/prod/20220526-164502-rotomairewhenua-blue-lakcredit-janet-newell.jpg?c=16x9&q=h_720,w_1280,c_fill"><img src="https://media.cnn.com/api/v1/images/stellar/prod/20220526-164502-rotomairewhenua-blue-lakcredit-janet-newell.jpg?c=16x9&q=h_720,w_1280,c_fill" alt="New Zealand"></a>
+        </div>
+
+        <div class="capsules">
+            <a target="_blank" href="https://www.newzealand.com/in/nature-and-wildlife/"><button>Nature</button></a>
+            <a target="_blank" href="https://www.newzealand.com/in/feature/new-zealand-cities/"><button>Towns</button></a>
+        </div>
+
+        <div class="content">
+            <h2>New Zealand</h2>
+            <p>New Zealand is an island country in the southwestern Pacific Ocean. It consists of two main landmasses—the North Island and the South Island—and over 600 smaller islands. The country's varied topography and sharp mountain peaks, including the Southern Alps, owe much to tectonic uplift and volcanic eruptions. New Zealand's capital city is Wellington, and its most populous city is Auckland.</p>
+        </div>
+
+        <div class="button">
+            <a target="_blank" href="https://en.wikipedia.org/wiki/New_Zealand"><button>Read More</button></a>
+        </div>
+    </div>
+    
+</body>
+
+</html>
